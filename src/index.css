@@ -244,20 +244,69 @@ Global Styles
 }
 
 /* media queries */
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
+  .main-heading {
+    margin-bottom: 0;
+    margin-top: 90px;
+  }
   .section-center {
     width: 95vw;
   }
 }
 
 @media screen and (max-width: 800px) {
+  .main-heading {
+    margin-bottom: 0;
+    margin-top: 90px;
+  }
   .user-value {
-    font-size: 38px;
+    font-size: 28px;
   }
   .icon {
     font-size: 2rem;
   }
   .main-heading {
     font-size: 3rem;
+  }
+  .icon:hover {
+    animation: none;
+    transform: none;
+  }
+}
+@media screen and (max-width: 635px) {
+  .main-heading {
+    margin-bottom: 0;
+    margin-top: 90px;
+  }
+  .user-value {
+    font-size: 20px;
+  }
+  .icon:hover {
+    animation: none;
+    transform: none;
+  }
+}
+@media screen and (max-width: 380px) {
+  .main-heading {
+    margin-bottom: 0;
+    margin-top: 90px;
+  }
+  .user-value {
+    font-size: 17px;
+  }
+  .icon {
+    font-size: 1.5rem;
+    justify-content: space-between;
+  }
+  .container img {
+    width: 120px;
+    height: 120px;
+  }
+  .btn {
+    font-size: 12px;
+  }
+  .icon:hover {
+    animation: none;
+    transform: none;
   }
 }

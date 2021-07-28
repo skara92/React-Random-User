@@ -116,6 +116,7 @@ function App() {
               className="icon"
               data-label="name"
               onMouseOver={handleValue}
+              onClick={handleValue}
             >
               <FaUser />
             </button>
@@ -123,6 +124,7 @@ function App() {
               className="icon"
               data-label="email"
               onMouseOver={handleValue}
+              onClick={handleValue}
             >
               <FaEnvelope />
             </button>
@@ -130,6 +132,7 @@ function App() {
               className="icon"
               data-label="street"
               onMouseOver={handleValue}
+              onClick={handleValue}
             >
               <FaMapPin />
             </button>
@@ -140,6 +143,7 @@ function App() {
               className="icon"
               data-label="phone"
               onMouseOver={handleValue}
+              onClick={handleValue}
             >
               <FaPhone />
             </button>
@@ -147,6 +151,8 @@ function App() {
               className="icon"
               data-label="password"
               onMouseOver={handleValue}
+              onClick={handleValue}
+              
             >
               <FaLock />
             </button>
